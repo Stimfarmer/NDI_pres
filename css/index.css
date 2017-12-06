@@ -15,7 +15,13 @@
     color: #ffffff;
 }
 
-#insa-cvl-logo {
+.team-name{
+	font-family: Arial Narrow, Arial, Sans-serif;
+	font-weight: bold;
+}
+
+.insa-cvl-logo {
+
 	margin: 20px;
 	width: 300px;
 	height: 100px;
@@ -23,6 +29,7 @@
 }
 
 .logo{
+	margin:20px;
 	width: 300px;
 	height: 300px;
 	display: inline;
@@ -31,4 +38,18 @@
 .navbar{
 	margin: 0px;
 	border-radius: 0px;
+}
+
+.row{
+	margin:10px;
+	margin-left: 200px;	
+}
+
+.team-user{
+	margin-bottom: 30px;
+}
+
+.forever-alone{
+	width: 225;
+	height: 225;
 }
