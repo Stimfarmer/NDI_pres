@@ -1,5 +1,5 @@
 .bg-one{
-	background-color: #D6DDEC;
+	background-color: #e5e5e5;
 }
 
 .bg-4 {
@@ -11,4 +11,10 @@
 	margin: 50px;
 	width: 300px;
 	height: 100px;
+	
+}
+
+.logo{
+	width: 300px;
+	height: 300px;
 }
