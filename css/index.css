@@ -7,6 +7,14 @@
     color: #ffffff;
 }
 
+.navbar{
+	border: 0px;
+	border-radius: 0px;
+	margin:0px;
+	background-color: #2f2f2f;
+    color: #ffffff;
+}
+
 #insa-cvl-logo {
 	margin: 50px;
 	width: 300px;
