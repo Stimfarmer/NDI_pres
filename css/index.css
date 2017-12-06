@@ -1,5 +1,6 @@
 .bg-one{
 	background-color: #e5e5e5;
+	margin-top: 50px;
 }
 
 .bg-4 {
@@ -11,8 +12,8 @@
 	border: 0px;
 	border-radius: 0px;
 	margin:0px;
+	height: 50px;
 	background-color: #2f2f2f;
-    color: #ffffff;
 }
 
 #insa-cvl-logo {
@@ -26,9 +27,28 @@
 	width: 300px;
 	height: 300px;
 	display: inline;
+	padding-top: 20px;
 }
 
-.navbar{
-	margin: 0px;
-	border-radius: 0px;
+.navbar-nav li a:hover{
+	color: #c7c7c7 !important;
+}
+
+.navbar-nav li a{
+	color: #ffffff !important;
+}
+
+.navbar-brand:hover{
+	color: #c7c7c7 !important;
+}
+
+.navbar-brand{
+	color: #ffffff !important;
+}
+
+.timer{
+}
+
+.row{
+	height: 500px;
 }
