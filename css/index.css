@@ -1,3 +1,14 @@
 .bg-one{
 	background-color: #D6DDEC;
 }
+
+.bg-4 {
+    background-color: #2f2f2f;
+    color: #ffffff;
+}
+
+#insa-cvl-logo {
+	margin: 50px;
+	width: 300px;
+	height: 100px;
+}
