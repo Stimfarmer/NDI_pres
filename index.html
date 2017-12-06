@@ -85,6 +85,21 @@
       <div class="col-sm-4" style="margin-bottom: 140px;"><div class="team-user"><div class="ratio"><a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Alone" data-caption="''" data-image="avis_de_template/img/forever.jpeg" data-target="#image-gallery"><img src="avis_de_template/img/forever.jpeg"></a></div></div></div>
   </div>
         </div>
+	<div>
+		<div id="twitch-embed"></div>
+
+    <!-- Load the Twitch embed script -->
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+    <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
+    <script type="text/javascript">
+      new Twitch.Embed("twitch-embed", {
+        width: 500,
+        height: 500,
+        channel: "Stimfarmer"
+      });
+    </script>
+	</div
 		  </div>
 
 
