@@ -16,14 +16,21 @@
 	background-color: #2f2f2f;
 }
 
-#insa-cvl-logo {
+.team-name{
+	font-family: Arial Narrow, Arial, Sans-serif;
+	font-weight: bold;
+}
+
+.insa-cvl-logo {
+
 	margin: 20px;
-	width: 300px;
-	height: 100px;
+	width: 200px;
+	height: 50px;
 	
 }
 
 .logo{
+	margin:20px;
 	width: 300px;
 	height: 300px;
 	display: inline;
@@ -46,9 +53,50 @@
 	color: #ffffff !important;
 }
 
-.timer{
+#timer_area{
+	line-height: 500px;
 }
 
 .row{
 	height: 500px;
+}
+
+#timer{
+	font-size: 2.5vw;
+}
+
+
+.team-user{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.ratio{
+	width: 225px;
+	height: 225px;
+	overflow: hidden;
+}
+
+.captain{
+	width: 225px;
+	
+	height: auto;
+}
+
+.grid-team{
+	text-align: center;
+	border-radius: 10px;
+	margin-right:10px;
+	margin-left: 10px;
+	margin-top: 70px;
+	background-color: #e5e5e5;
+}
+
+.head{
+	font-family: Arial Narrow, Arial, Sans-serif;
+	font-weight: bold;
+}
+
+footer {
+	line-height: 80px;
 }

@@ -18,12 +18,18 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>                        
             </button>
-            <a class="navbar-brand" href="index.html">Home</a>
+            <a class="navbar-brand" href="#" id="home">AVIS DE {{ template }}</a>
+            <script type="text/javascript">
+              $('#home').click(function(){
+    $("html, body").animate({ scrollTop: 0 }, 600);
+    return false;
+ });
+            </script>
           </div>
           <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="#">L'équipe</a></li>
               <li><a href="#timer_area">Notre site</a></li>
+              <li><a href="#team_spec">L'équipe</a></li>
               <li><a href="#"></a></li>
             </ul>
           </div>
@@ -37,10 +43,32 @@
         <div class="row" id="timer_area">
           <span id="timer"></span>
         </div>
+        <div class="row" id="team_spec">
+          <div class="grid-team">
+    <h1 class="head">L'équipe</h1>
+      <div class="col-sm-4"><div class="team-user"><div class="ratio"><img class="captain" src="img/captain.jpg"></div></div></div>
+      <div class="col-sm-4"><div class="team-user"><div class="ratio"><img class="captain" src="img/jeannot.jpg"></div></div></div>
+      <div class="col-sm-4"><div class="team-user"><div class="ratio"><img class="captain" src="img/kevlard.jpg"></div></div></div>
+      <div class="col-sm-4"><div class="team-user"><div class="ratio"><img class="captain" src="img/bbinet.jpg"></div></div></div>
+      <div class="col-sm-4"><div class="team-user"><div class="ratio"><img class="captain" src="img/deniau.jpg"></div></div></div>
+      <div class="col-sm-4"><div class="team-user"><div class="ratio"><img class="captain" src="img/captain.jpg"></div></div></div>
+      <div class="col-sm-4"><div class="team-user"><div class="ratio"><img class="captain" src="img/captain.jpg"></div></div></div>
+      <div class="col-sm-4"><div class="team-user"><div class="ratio"><img class="captain" src="img/captain.jpg"></div></div></div>
+      <div class="col-sm-4"><div class="team-user"><div class="ratio"><img class="captain" src="img/captain.jpg"></div></div></div>
+      <div class="col-sm-4"><div class="team-user"><div class="ratio"><img class="captain" src="img/me.jpg"></div></div></div>
+      <div class="col-sm-4"><div class="team-user"><div class="ratio"><img class="captain" src="img/captain.jpg"></div></div></div>
+      <div class="col-sm-4"><div class="team-user"><div class="ratio"><img class="captain" src="img/captain.jpg"></div></div></div>
+      <div class="col-sm-4" style="margin-bottom: 140px;"><div class="team-user"><div class="ratio"><img class="captain" src="img/captain.jpg"></div></div></div>
+      <div class="col-sm-4" style="margin-bottom: 140px;"><div class="team-user"><div class="ratio"><img src="img/forever.jpeg"></div></div></div>
+      <div class="col-sm-4" style="margin-bottom: 140px;"><div class="team-user"><div class="ratio"><img src="img/forever.jpeg"></div></div></div>
+  </div>
+        </div>
 		  </div>
-      <footer class="container-fluid bg-4 text-left nav navbar-fixed-bottom">
-        <img src="img/insa-cvl-logo.png" id="insa-cvl-logo">
-      </footer>
+      <footer class="container-fluid bg-4 text-left navbar-fixed-bottom">
+        <img src="img/insa-cvl-logo.png" class="insa-cvl-logo">
+        <img src="img/n2i.svg">
+        <span style="float: right;">Copyrights © 2017</span>
+</footer>  
       <script type="text/javascript" src="js/script.js"></script>
       <script>
 $(document).ready(function(){
